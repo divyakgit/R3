@@ -12,7 +12,7 @@ stages {
                    sh 'git clone https://github.com/divyakgit/R3.git'
                     sh 'sudo yum install -y httpd'
                     sh 'sudo systemctl start httpd'
-                    sh 'sudo cp index.html /var/www/html/index.html'
+                    sh 'sudo cp ./index.html /var/www/html/index.html'
                 
             }
         }
